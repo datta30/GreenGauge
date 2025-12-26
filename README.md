@@ -204,7 +204,7 @@ Contributions are welcome! Please feel free to submit issues or pull requests.
 
 ## 📝 License
 
-This project is open source and available under the [ISC License](LICENSE).
+This project is open source and available under the ISC License.
 
 ## 🌟 Future Enhancements
 
