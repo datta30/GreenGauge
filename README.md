@@ -64,9 +64,8 @@ GreenGauge is a comprehensive web application designed to help individuals and c
 ### Backend
 - **Node.js** - JavaScript runtime environment
 - **Express** (v5.2.1) - Web application framework for Node.js
-- **bcryptjs** (v3.0.3) - Password hashing library
-- **jsonwebtoken** (v9.0.3) - JWT authentication implementation
 - **CORS** (v2.8.5) - Cross-Origin Resource Sharing middleware
+- In-memory data storage for resource tracking
 
 ### Development Tools
 - **Create React App** - Frontend build tooling
@@ -79,9 +78,9 @@ GreenGauge is a comprehensive web application designed to help individuals and c
 GreenGauge/
 ├── backend/
 │   ├── models/
-│   │   └── User.js              # User model schema
+│   │   └── User.js              # User model (for future auth)
 │   ├── routes/
-│   │   └── auth.js              # Authentication routes
+│   │   └── auth.js              # Authentication routes (for future auth)
 │   ├── server.js                 # Express server and API endpoints
 │   └── package.json              # Backend dependencies
 │
@@ -208,8 +207,9 @@ This project is open source and available under the ISC License.
 
 ## 🌟 Future Enhancements
 
+- **User Authentication**: Login and registration system (authentication routes are prepared but not yet integrated)
 - Database integration (MongoDB/PostgreSQL) for persistent data storage
-- User authentication and personal dashboards
+- Personal user dashboards with saved preferences
 - Mobile application development
 - Social sharing features
 - Advanced analytics and reporting
